@@ -1,0 +1,1 @@
+login_panel_link         linktext            Login Panel

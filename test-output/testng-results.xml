@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[The application url is :- http://hris.qainfotech.com]]>
+    </line>
+    <line>
+      <![CDATA[The test browser is :- chrome
+]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element link_login_panel_link is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_user_name_entry is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element txt_user_passwd_entry is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element btn_submit is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[TEST PASSED: element img_user_image is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Browser selected from 'Config.properties' file: chrome]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31671" started-at="2018-07-20T10:53:50Z" finished-at="2018-07-20T10:54:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31671" started-at="2018-07-20T10:53:50Z" finished-at="2018-07-20T10:54:22Z">
+      <class name="com.qait.acs.tests.BaseTest">
+        <test-method status="PASS" signature="Start_Test_Session()[pri:0, instance:com.qait.acs.tests.BaseTest@7d9d1a19]" name="Start_Test_Session" is-config="true" duration-ms="5381" started-at="2018-07-20T16:23:50Z" finished-at="2018-07-20T16:23:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The application url is :- http://hris.qainfotech.com]]>
+            </line>
+            <line>
+              <![CDATA[The test browser is :- chrome
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Start_Test_Session -->
+        <test-method status="PASS" signature="Step1_isLoginPageOpen()[pri:0, instance:com.qait.acs.tests.BaseTest@7d9d1a19]" name="Step1_isLoginPageOpen" duration-ms="4168" started-at="2018-07-20T16:23:56Z" finished-at="2018-07-20T16:24:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST PASSED: element link_login_panel_link is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step1_isLoginPageOpen -->
+        <test-method status="PASS" signature="Step2_verifyThatTimeSheetIsOpen()[pri:0, instance:com.qait.acs.tests.BaseTest@7d9d1a19]" name="Step2_verifyThatTimeSheetIsOpen" duration-ms="20343" started-at="2018-07-20T16:24:00Z" depends-on-methods="com.qait.acs.tests.BaseTest.Step1_isLoginPageOpen" finished-at="2018-07-20T16:24:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST PASSED: element txt_user_name_entry is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element txt_user_passwd_entry is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element btn_submit is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[TEST PASSED: element img_user_image is displayed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step2_verifyThatTimeSheetIsOpen -->
+        <test-method status="PASS" signature="Step3_verifyFirstName()[pri:0, instance:com.qait.acs.tests.BaseTest@7d9d1a19]" name="Step3_verifyFirstName" duration-ms="1583" started-at="2018-07-20T16:24:20Z" depends-on-methods="com.qait.acs.tests.BaseTest.Step2_verifyThatTimeSheetIsOpen" finished-at="2018-07-20T16:24:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step3_verifyFirstName -->
+        <test-method status="PASS" signature="close_Test_Session()[pri:0, instance:com.qait.acs.tests.BaseTest@7d9d1a19]" name="close_Test_Session" is-config="true" duration-ms="183" started-at="2018-07-20T16:24:22Z" finished-at="2018-07-20T16:24:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser selected from 'Config.properties' file: chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close_Test_Session -->
+      </class> <!-- com.qait.acs.tests.BaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
